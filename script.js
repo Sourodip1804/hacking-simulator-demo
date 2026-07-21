@@ -29,5 +29,6 @@ const additem = async (item)=>{
     await randomDelay();
     let div = document.createElement("div");
     div.innerHTML = item;
+    document.body.append(div)
 
 }
