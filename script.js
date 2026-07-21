@@ -25,6 +25,7 @@ for (const item of text) {
 }
 
 
-const additem = async ()=>{
+const additem = async (item)=>{
+    await randomDelay();
 
 }
