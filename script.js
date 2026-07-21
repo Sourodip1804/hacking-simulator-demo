@@ -27,6 +27,7 @@ async function main() {
 
     setInterval(() => {
         let last = document.body.lastElementChild;
+        last.innerHTML = last.innerHTML + "."
 
     }, 700);
 
