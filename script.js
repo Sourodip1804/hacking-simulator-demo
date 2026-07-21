@@ -27,5 +27,6 @@ for (const item of text) {
 
 const additem = async (item)=>{
     await randomDelay();
+    let div = document.createElement("div");
 
 }
