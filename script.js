@@ -15,5 +15,14 @@ for (const item of text) {
 
 
 const additem = async ()=>{
-    
+
+}
+
+// for creating the blink, we create a arrow function 
+const randomDelay = ()=>{
+    return new Promise((resolve, reject)=>{
+        setTimeout(() => {
+           resolve() 
+        }, timeout);
+    })
 }
