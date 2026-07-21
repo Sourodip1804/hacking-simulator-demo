@@ -51,9 +51,9 @@ async function main() {
     for (const item of text) {
         // creating a function 
         await additem(item)
-
     }
-
+    await randomDelay()
+    clearInterval(t)
 }
 main()
 
