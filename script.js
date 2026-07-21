@@ -25,8 +25,10 @@ const additem = async (item) => {
 async function main() {
 
 
-    setInterval(() => {
-        let last = document.body.querySelector("div");
+    let t = setInterval(() => {
+        // let last = document.body.querySelector("div");
+        let last = document.body.getElementsByTagName("div");
+        last = last[last.length - 1]
         // to get exactly three dots we add this if else statement 
         if (last.innerHTML.endsWith("...")) {
             last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length - 3)
