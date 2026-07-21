@@ -7,3 +7,8 @@ let text = ["Initializing Hacking...",
     "Cleaning up..."]
 
 // iterating the loop using for of loop 
+for (const item of text) {
+    // creating a function 
+    additem(item)
+    
+}
