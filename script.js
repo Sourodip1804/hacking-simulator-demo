@@ -2,10 +2,7 @@
 
 // for creating the blinking of the dots, we create a arrow function
 
-setInterval(() => {
-    let last = document.body.lastElementChild;
 
-}, 700);
 
 
 const randomDelay = () => {
@@ -25,19 +22,29 @@ const additem = async (item) => {
 
 }
 
+async function main() {
 
-let text = ["Initializing Hacking",
+
+    setInterval(() => {
+        let last = document.body.lastElementChild;
+
+    }, 700);
+
+
+
+    let text = ["Initializing Hacking",
     "Reading your Files",
     "Password files Detected",
     "Sending all passwords and personal files to server",
     "Cleaning up"]
 
-// iterating the loop using for of loop 
-for (const item of text) {
-    // creating a function 
-    additem(item)
+    // iterating the loop using for of loop 
+    for (const item of text) {
+        // creating a function 
+        await additem(item)
+
+    }
 
 }
-
-
+main()
 
