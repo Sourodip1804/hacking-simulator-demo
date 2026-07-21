@@ -1,6 +1,13 @@
 // creating a javascript Array
 
-// for creating the blinking of the dots, we create a arrow function 
+// for creating the blinking of the dots, we create a arrow function
+
+setInterval(() => {
+    let last = document.body.lastElementChild;
+
+}, 700);
+
+
 const randomDelay = () => {
     return new Promise((resolve, reject) => {
         timeout = 1 + 6 * Math.random();  //to get a random number between 1 and 7
