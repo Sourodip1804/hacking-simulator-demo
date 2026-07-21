@@ -12,3 +12,8 @@ for (const item of text) {
     additem(item)
     
 }
+
+
+const additem = async ()=>{
+    
+}
